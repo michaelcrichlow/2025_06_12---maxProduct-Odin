@@ -22,6 +22,8 @@ maxProduct_00 :: proc(l: []int) -> int {
     return max_value
 }
 
+// find the two largest and two smallest values without sorting
+// time complexity is O(n)
 maxProduct :: proc(l: []int) -> int {
     max1, max2 := INT_MIN, INT_MIN
     min1, min2 := INT_MAX, INT_MAX
